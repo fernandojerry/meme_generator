@@ -10,27 +10,48 @@
 <body>
   <section>
     <div class="screen">
-
+      <h2>
+        Output
+      </h2>
+      <p>
+        programmer memes
+      </p>
+      <div class="showMeme">
+      </div>
+      <p>
+        Tell me something funny!
+      </p>
+      <div class="showJoke">
+      </div>
+      <p>
+        Give me some wisdom
+      </p>
+      <div class="showQuote"></div>
+      <p>
+        I want a riddle
+      </p>
+      <div class="showRiddle"></div>
     </div>
     <div class="buttons">
       <h2>
         Actions
       </h2>
-      <button class="meme">
-        show a Meme
-      </button>
-      <button class="joke">
-        Tell Me a Joke
-      </button>
-      <button class="Quiz">
-        Random Quiz
-      </button>
-      <button class="riddle">
-        Riddle Me
-      </button>
-     <a href="#" class="riddle_ans">Reveal Riddle Answer</a>
-     <p>created by jerry</p>
+      <button onclick="showMeme()">
+      Show a Meme</button>
+      <button onclick="showJoke()">
+      show a Joke</button>
+      <button onclick="showQuote()">
+      Random Quote</button>
+      <button onclick="showRiddle()">
+      Riddle Me</button>
+      <button class="reveal" onclick="revealReddleAnswer()">
+      Reveal Riddle Answer</button>
     </div>
   </section>
+  <div class="title">
+    <span class="main">Challenge done by <span class="name">@Jerry</span></span>
+  </div> 
+
+  <script src="./asset/apps/app.js"></script>
 </body>
 </html>
